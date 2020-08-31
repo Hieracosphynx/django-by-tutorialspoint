@@ -3,6 +3,7 @@
     </head>
     <body>
         <h3> Django by Tutorialspoint </h3>
+        <p>The tutorial introduces the web framework Django and its uses.</p>
         <i>Tutorialspoint django tutorial is outdates, but can still be useful in learning</i>
         <h3>Configuring settings.py</h3>
         <p>Replace BASE_DIR with BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</p>
@@ -12,7 +13,6 @@
             <li>TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")</li>
             <li>STATIC_DIR = os.path.join(BASE_DIR, "static")</li>
         </ul>
-        <p>The tutorial introduces the web framework Django and its uses.</p>
         <p>To see the tutorial click <a href="https://www.tutorialspoint.com/django/index.htm">here</a></p>
         <h3>Databases</h3>
         <p>Copy the one that starts with 'django.db.backends.'; MongoDB has a different format than the rest</p>
