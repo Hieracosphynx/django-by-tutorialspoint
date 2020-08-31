@@ -1,6 +1,5 @@
 <html>
     <head>
-        <title></title>
     </head>
     <body>
         <h3> Django by Tutorialspoint </h3>
