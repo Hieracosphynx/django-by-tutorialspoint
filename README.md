@@ -48,3 +48,4 @@
 
 <h3>Tags</h3>
 <p>In using conditions use <b>{% condition %}</b></p>
+<i>Be aware to use <b>{% %}</b> for conditions and <b>{{ }}</b> for variables</i>
