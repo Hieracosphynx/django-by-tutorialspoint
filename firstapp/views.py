@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+import datetime
 # Create your views here.
 def index(request):
-    return render(request, "firstapp/index.html", {})
+    today = datetime.datetime.now().date()
+    return render(request, "firstapp/index.html", {"today": today})
 
 def hello(request):
     return render(request, "firstapp/hello.html", {})

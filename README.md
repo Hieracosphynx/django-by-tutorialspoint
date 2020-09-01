@@ -38,3 +38,13 @@
 
 <h3>Passing URL</h3>
 <p>Instead of doint this "url/(\d+); do this "url/<'values'>""</p>
+
+<h3>Display a value</h3>
+<p>In displaying value in HTML use <b>{{ variable }}</b></p>
+
+<h3>Passing value to HTML / Template</h3>
+<p>Be reminded that the third parameter is for dict (dictionary)</p>
+<p>Example: <b>return render(request, 'template_dir', {"today": value})</b></p>
+
+<h3>Tags</h3>
+<p>In using conditions use <b>{% condition %}</b></p>
