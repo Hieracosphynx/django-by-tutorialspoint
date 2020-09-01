@@ -1,7 +1,7 @@
 
 <h3> Django by Tutorialspoint </h3>
 <p>The tutorial introduces the web framework Django and its uses.</p>
-<i>Tutorialspoint django tutorial is outdated but can still be useful in learning</i>
+<i>Tutorialspoint django tutorial is outdated</i>
 
 <h3>Configuring settings.py</h3>
 <p>Replace BASE_DIR with BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</p>

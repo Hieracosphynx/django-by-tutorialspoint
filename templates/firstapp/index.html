@@ -7,5 +7,12 @@
 </head>
 <body>
     Date today:  {{ today }}
+    {% if today.day == 1 %}
+        <b>This is the first day of the month</b>
+    {% elif today.day == 30 %}
+        <b>This is the last day of the month</b>
+    {% else %}
+        <b>Today is the {{ today.day }} of the month</b>
+    {% endif %}
 </body>
 </html>

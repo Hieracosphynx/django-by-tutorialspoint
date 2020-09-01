@@ -3,6 +3,17 @@
 
     </head>
     <body>
-       Sentence: {{ word|lower }}
+    <ul>
+       {% for day in days %}
+            <li>{{ day }}</li>
+            {% if day == 'Saturday' %}
+                <i>Weekend</i>
+            {% elif day == 'Sunday' %}
+                <i>Weekend</i>
+            {% else %}
+                <i>Weekday</i>
+            {% endif %}
+        {% endfor %}
+    </ul>
     </body>
 </html>

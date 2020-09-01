@@ -7,8 +7,8 @@ def index(request):
     return render(request, "firstapp/index.html", {"today": today})
 
 def hello(request):
-    words = "The quick brown fox jumped over the lazy dog."
-    return render(request, "firstapp/hello.html", {"word": words})
+    days = ["Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+    return render(request, "firstapp/hello.html", {"days": days})
 
 def viewArticle(request, articleID):
     text = "The number is: %s" %articleID
