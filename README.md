@@ -53,3 +53,7 @@
 <h3>Filters</h3>
 <p>To add filters for variables in HTML add a "|filter" next to the variable</p>
 <p>Example: <b>{{ variable|truncatewords:3 }}</b></p>
+
+<h3>Blocks</h3>
+<p>See <a href="https://github.com/Hieracosphynx/django-by-tutorialspoint/blob/master/templates/firstapp/main_template.html">main_template.html</a></p>
+<p>See <a href="https://github.com/Hieracosphynx/django-by-tutorialspoint/blob/master/templates/firstapp/hello.html">hello.html</a></p>
