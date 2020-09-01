@@ -7,7 +7,8 @@ def index(request):
     return render(request, "firstapp/index.html", {"today": today})
 
 def hello(request):
-    return render(request, "firstapp/hello.html", {})
+    words = "The quick brown fox jumped over the lazy dog."
+    return render(request, "firstapp/hello.html", {"word": words})
 
 def viewArticle(request, articleID):
     text = "The number is: %s" %articleID

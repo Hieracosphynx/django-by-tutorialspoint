@@ -48,4 +48,8 @@
 
 <h3>Tags</h3>
 <p>In using conditions use <b>{% condition %}</b></p>
-<i>Be aware to use <b>{% %}</b> for conditions and <b>{{ }}</b> for variables</i>
+<i>Be careful in using <b>{% %}</b> for conditions and <b>{{ }}</b> for variables</i>
+
+<h3>Filters</h3>
+<p>To add filters for variables in HTML add a "|filter" next to the variable</p>
+<p>Example: <b>{{ variable|truncatewords:3 }}</b></p>
