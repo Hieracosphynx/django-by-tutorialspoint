@@ -8,7 +8,8 @@ def index(request):
 
 def hello(request):
     days = ["Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
-    return render(request, "firstapp/hello.html", {"days": days})
+    today = datetime.datetime.now().date()
+    return render(request, "firstapp/hello.html", {"days": days, "date": today})
 
 def viewArticle(request, articleID):
     text = "The number is: %s" %articleID
